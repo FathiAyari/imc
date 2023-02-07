@@ -6,4 +6,72 @@
     android:layout_height="match_parent"
     tools:context=".TEST_IMC">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvpoids"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#07ACF6"
+            android:textColorLink="#2196F3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvtaille"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#07ACF6"
+            android:textColorLink="#2196F3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#07ACF6"
+            android:textColorLink="#2196F3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvsexe"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#07ACF6"
+            android:textColorLink="#2196F3"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvimc"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center|center_horizontal|center_vertical"
+            android:textAlignment="gravity"
+            android:textColor="#07ACF6"
+            android:textColorLink="#2196F3"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/imc1" />
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
