@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:padding="30dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
@@ -48,7 +49,7 @@
 
             <EditText
                 android:id="@+id/ettaille"
-                android:layout_width="wrap_content"
+                android:layout_width="137dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:ems="10"
@@ -94,6 +95,7 @@
                 tools:ignore="RtlCompat" />
 
             <RadioGroup
+                android:gravity="center"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
@@ -102,14 +104,14 @@
                 <RadioButton
                     android:id="@+id/rbf"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:gravity="center"
                     android:text="Femme" />
 
                 <RadioButton
                     android:id="@+id/rbh"
                     android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
+                    android:layout_height="wrap_content"
                     android:text="Homme" />
             </RadioGroup>
         </LinearLayout>
@@ -158,7 +160,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Developpé par Cyrine Chebbi" />
+                android:text="Développé par Cyrine CHEBBI" />
         </LinearLayout>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
